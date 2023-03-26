@@ -1659,6 +1659,7 @@ class EventRoll(object):
 
         import matplotlib.pyplot as plt
         plt.matshow(self.event_roll.T, cmap=plt.cm.gray, interpolation='nearest', aspect='auto')
+        plt.savefig('results/plot_self.jpg')
         plt.show()
 
 

@@ -1,0 +1,660 @@
+filename,events,event_type
+audio/street/a001.wav,"1589.213,2383.82",people walking
+audio/street/a001.wav,"3500.7670000000003,4156.692999999999",people walking
+audio/street/a001.wav,"4156.692999999999,14003.07",car
+audio/street/a001.wav,"8508.288999999999,11844.137999999999",car
+audio/street/a001.wav,"14381.632,20000.102",car
+audio/street/a001.wav,"21304.456,30030.138000000003",car
+audio/street/a001.wav,"24842.704999999998,28152.317",large vehicle
+audio/street/a001.wav,"28152.317,29252.398",brakes squeaking
+audio/street/a001.wav,"29252.398,58740.928",large vehicle
+audio/street/a001.wav,"35862.251000000004,43373.534",car
+audio/street/a001.wav,"43373.534,49445.529",car
+audio/street/a001.wav,"58740.928,69370.667",large vehicle
+audio/street/a001.wav,"70465.126,73744.753",car
+audio/street/a001.wav,"72339.19799999999,77204.29",car
+audio/street/a001.wav,"76627.076,77721.534",people walking
+audio/street/a001.wav,"84040.907,94610.67599999999",people speaking
+audio/street/a001.wav,"89153.37700000001,100037.98999999999",people walking
+audio/street/a001.wav,"102976.535,106844.621",people speaking
+audio/street/a001.wav,"112446.534,115485.629",people walking
+audio/street/a001.wav,"116897.14600000001,133958.702",car
+audio/street/a001.wav,"118345.95400000001,119895.297",people walking
+audio/street/a001.wav,"137077.158,143928.767",car
+audio/street/a001.wav,"143928.767,153014.271",car
+audio/street/a001.wav,"159386.11700000003,168006.85100000002",car
+audio/street/a001.wav,"168006.85100000002,176042.874",car
+audio/street/a003.wav,"74929.90299999999,80203.8",car
+audio/street/a003.wav,"80203.8,103246.672",car
+audio/street/a003.wav,"145518.98299999998,151157.99599999998",car
+audio/street/a003.wav,"152334.48,157527.24000000002",car
+audio/street/a003.wav,"211320.987,216148.631",people speaking
+audio/street/a003.wav,"222071.623,227994.61500000002",car
+audio/street/a003.wav,"232943.964,237731.04",car
+audio/street/a008.wav,"184.586,469.855",people speaking
+audio/street/a008.wav,"61735.534,64957.39399999999",people walking
+audio/street/a008.wav,"63044.415,63514.269",people speaking
+audio/street/a008.wav,"86201.532,109325.089",people speaking
+audio/street/a008.wav,"148708.97,152182.538",car
+audio/street/a008.wav,"159599.528,163224.12",car
+audio/street/a010.wav,"138.06199999999998,5332.6539999999995",car
+audio/street/a010.wav,"128544.568,134481.244",car
+audio/street/a010.wav,"181431.03300000002,193149.065",people walking
+audio/street/a010.wav,"194909.358,198516.234",people walking
+audio/street/a012.wav,"0.0,202528.774",children
+audio/street/a012.wav,"4096.064,5100.089",children
+audio/street/a012.wav,"6859.352999999999,7525.741",children
+audio/street/a012.wav,"21884.179,22990.383",people speaking
+audio/street/a012.wav,"23097.005,27130.873",children
+audio/street/a012.wav,"26579.992000000002,31604.557",people speaking
+audio/street/a012.wav,"31862.227,34727.695",children
+audio/street/a012.wav,"39139.183000000005,57527.046",people speaking
+audio/street/a012.wav,"41156.117,43537.343",children
+audio/street/a012.wav,"44199.288,45780.849",children
+audio/street/a012.wav,"48721.841,50378.926",children
+audio/street/a012.wav,"52924.526999999995,55443.474",children
+audio/street/a012.wav,"57527.046,195202.787",people speaking
+audio/street/a012.wav,"63937.698,65332.66999999999",children
+audio/street/a012.wav,"66247.84300000001,68304.76",children
+audio/street/a012.wav,"89473.68299999999,91170.75",children
+audio/street/a012.wav,"92210.31499999999,93152.144",children
+audio/street/a012.wav,"93472.01,100286.93699999999",children
+audio/street/a012.wav,"120660.636,121638.005",children
+audio/street/a012.wav,"134166.098,134699.20799999998",children
+audio/street/a012.wav,"164580.042,166499.239",children
+audio/street/a012.wav,"191537.654,192186.271",children
+audio/street/a012.wav,"195202.787,208623.84",large vehicle
+audio/street/a012.wav,"206518.054,212888.722",children
+audio/street/a013.wav,"107764.837,109144.08",people walking
+audio/street/a124.wav,"0.0,4037.6659999999997",people speaking
+audio/street/a124.wav,"0.0,21850.174",large vehicle
+audio/street/a124.wav,"1772.634,4222.315",people walking
+audio/street/a124.wav,"6684.307000000001,15732.125",car
+audio/street/a124.wav,"21850.174,31550.42",large vehicle
+audio/street/a124.wav,"44118.886000000006,53314.424",car
+audio/street/a124.wav,"44402.015,46162.339",people walking
+audio/street/a124.wav,"50039.976,62066.804",car
+audio/street/a124.wav,"74278.281,92583.18800000001",large vehicle
+audio/street/a124.wav,"93395.645,98578.137",people walking
+audio/street/a124.wav,"96214.625,109053.91",car
+audio/street/a124.wav,"109127.77,116218.30500000001",car
+audio/street/a124.wav,"116304.47499999999,121880.886",car
+audio/street/a124.wav,"121733.166,127949.695",large vehicle
+audio/street/a124.wav,"130251.65699999999,132787.508",brakes squeaking
+audio/street/a124.wav,"131408.79200000002,187480.647",large vehicle
+audio/street/a124.wav,"159167.74599999998,169508.11",car
+audio/street/a124.wav,"166824.539,169865.099",people walking
+audio/street/a124.wav,"184932.486,188219.245",car
+audio/street/a124.wav,"187480.647,194214.194",large vehicle
+audio/street/a124.wav,"193204.777,197414.783",car
+audio/street/a124.wav,"204505.318,219277.267",car
+audio/street/a124.wav,"217123.02399999998,230060.789",car
+audio/street/a124.wav,"238136.121,244574.228",car
+audio/street/a124.wav,"244574.228,256822.636",car
+audio/street/a124.wav,"255197.722,269391.102",large vehicle
+audio/street/a124.wav,"269612.681,276900.176",large vehicle
+audio/street/a124.wav,"276247.748,289936.421",large vehicle
+audio/street/a124.wav,"285184.777,298417.98099999997",car
+audio/street/a124.wav,"299882.866,300953.832",people speaking
+audio/street/a127.wav,"0.0,65024.478",people walking
+audio/street/a127.wav,"295.06300000000005,51291.761",people speaking
+audio/street/a127.wav,"7364.277,20150.335",car
+audio/street/a127.wav,"59233.87,68688.17599999999",large vehicle
+audio/street/a127.wav,"78830.962,90363.002",people walking
+audio/street/a127.wav,"84916.633,92182.55600000001",car
+audio/street/a127.wav,"91358.839,113045.959",people walking
+audio/street/a127.wav,"92502.207,100038.60500000001",large vehicle
+audio/street/a127.wav,"98735.41,100960.676",brakes squeaking
+audio/street/a127.wav,"99891.073,185434.71500000003",large vehicle
+audio/street/a127.wav,"99891.073,103554.77100000001",people speaking
+audio/street/a127.wav,"108460.19099999999,121541.31099999999",large vehicle
+audio/street/a127.wav,"115553.994,137314.87999999998",people walking
+audio/street/a127.wav,"118627.565,121369.191",people speaking
+audio/street/a127.wav,"121897.845,126250.022",large vehicle
+audio/street/a127.wav,"125635.30799999999,130774.31999999999",brakes squeaking
+audio/street/a127.wav,"131450.505,133208.588",brakes squeaking
+audio/street/a127.wav,"134216.72,136110.04",brakes squeaking
+audio/street/a127.wav,"136675.577,143609.554",large vehicle
+audio/street/a127.wav,"143400.551,166821.166",people walking
+audio/street/a127.wav,"152805.68,163292.706",car
+audio/street/a127.wav,"166907.226,175722.229",people walking
+audio/street/a127.wav,"173792.02599999998,174578.86099999998",people speaking
+audio/street/a127.wav,"178513.032,180590.766",people walking
+audio/street/a127.wav,"179545.75199999998,183049.62399999998",children
+audio/street/a127.wav,"182779.14899999998,192454.752",large vehicle
+audio/street/a127.wav,"191803.155,207109.541",people walking
+audio/street/a127.wav,"200126.387,213883.693",large vehicle
+audio/street/a127.wav,"200446.038,201773.821",people speaking
+audio/street/a127.wav,"213883.693,248393.753",large vehicle
+audio/street/a127.wav,"215678.65800000002,300570.703",people walking
+audio/street/a127.wav,"222956.876,227358.22999999998",people speaking
+audio/street/a127.wav,"224997.72699999998,240156.582",large vehicle
+audio/street/a127.wav,"227653.293,227997.533",brakes squeaking
+audio/street/a127.wav,"248393.753,265691.814",large vehicle
+audio/street/a127.wav,"267056.47900000005,268310.497",large vehicle
+audio/street/a127.wav,"270990.651,271851.251",brakes squeaking
+audio/street/a127.wav,"274568.288,275551.831",brakes squeaking
+audio/street/a127.wav,"281514.56,282030.92",brakes squeaking
+audio/street/a127.wav,"284600.425,299033.91699999996",large vehicle
+audio/street/a127.wav,"297558.603,300570.703",car
+audio/street/a128.wav,"0.0,4359.811",large vehicle
+audio/street/a128.wav,"2258.816,9508.729000000001",people speaking
+audio/street/a128.wav,"4320.356000000001,15939.944000000001",large vehicle
+audio/street/a128.wav,"11116.533000000001,32264.578",people speaking
+audio/street/a128.wav,"15348.115,25093.575999999997",large vehicle
+audio/street/a128.wav,"20043.296000000002,20526.624000000003",brakes squeaking
+audio/street/a128.wav,"22065.380999999998,29739.438",people walking
+audio/street/a128.wav,"25073.848,36141.062",large vehicle
+audio/street/a128.wav,"34493.803,50009.602",people speaking
+audio/street/a128.wav,"36249.564,49516.411",people walking
+audio/street/a128.wav,"38607.018,39228.439",brakes squeaking
+audio/street/a128.wav,"41773.307,59666.289",large vehicle
+audio/street/a128.wav,"46310.667,47267.458",brakes squeaking
+audio/street/a128.wav,"50216.743,86150.664",people walking
+audio/street/a128.wav,"56707.141,62477.479",people speaking
+audio/street/a128.wav,"57782.297999999995,58245.897999999994",brakes squeaking
+audio/street/a128.wav,"63158.083,67133.206",brakes squeaking
+audio/street/a128.wav,"63355.36,88034.655",people speaking
+audio/street/a128.wav,"69066.51599999999,69609.026",brakes squeaking
+audio/street/a128.wav,"70437.588,77085.807",large vehicle
+audio/street/a128.wav,"75369.501,76533.433",brakes squeaking
+audio/street/a128.wav,"82195.269,92364.875",large vehicle
+audio/street/a128.wav,"87945.88,109301.06499999999",people walking
+audio/street/a128.wav,"91131.896,94663.146",people speaking
+audio/street/a128.wav,"94515.18900000001,95925.716",brakes squeaking
+audio/street/a128.wav,"95185.929,98825.681",car
+audio/street/a128.wav,"96734.55,98342.354",brakes squeaking
+audio/street/a128.wav,"96823.324,102692.301",people speaking
+audio/street/a128.wav,"99516.149,103086.854",brakes squeaking
+audio/street/a128.wav,"103313.722,110849.686",car
+audio/street/a128.wav,"112270.077,118030.552",car
+audio/street/a128.wav,"115120.723,119894.81499999999",brakes squeaking
+audio/street/a128.wav,"117399.26699999999,134513.00699999998",people speaking
+audio/street/a128.wav,"121344.798,124451.903",people walking
+audio/street/a128.wav,"125527.061,130528.021",people walking
+audio/street/a128.wav,"126967.179,128900.48899999999",brakes squeaking
+audio/street/a128.wav,"130616.795,131208.625",brakes squeaking
+audio/street/a128.wav,"131129.714,163009.603",people walking
+audio/street/a128.wav,"131760.999,146093.14",car
+audio/street/a128.wav,"145294.17,163512.658",people speaking
+audio/street/a128.wav,"148450.59399999998,150798.185",brakes squeaking
+audio/street/a128.wav,"159261.348,171048.622",large vehicle
+audio/street/a128.wav,"163749.39,164114.351",brakes squeaking
+audio/street/a128.wav,"165830.657,166461.94199999998",brakes squeaking
+audio/street/a128.wav,"167556.827,168267.022",people walking
+audio/street/a128.wav,"170003.05599999998,173011.52300000002",people walking
+audio/street/a128.wav,"175280.203,196398.65699999998",people speaking
+audio/street/a128.wav,"175802.986,177874.39",people walking
+audio/street/a128.wav,"177351.607,195057.176",large vehicle
+audio/street/a128.wav,"179304.645,187284.481",people walking
+audio/street/a128.wav,"194948.674,201320.706",people walking
+audio/street/a128.wav,"202168.995,241150.83899999998",people walking
+audio/street/a128.wav,"207584.236,224510.563",people speaking
+audio/street/a128.wav,"228465.958,233496.509",people speaking
+audio/street/a128.wav,"238684.88199999998,241150.83899999998",brakes squeaking
+audio/street/a128.wav,"239898.133,241150.83899999998",people speaking
+audio/street/a129.wav,"9289.038,10607.609",car
+audio/street/a129.wav,"13323.472,14927.405",people walking
+audio/street/a129.wav,"14927.405,17879.43",car
+audio/street/a129.wav,"18213.993,20398.490999999998",people walking
+audio/street/a129.wav,"21067.617,24088.522",people walking
+audio/street/a129.wav,"24491.966,27266.869",car
+audio/street/a129.wav,"28447.679,32147.550000000003",people walking
+audio/street/a129.wav,"28595.28,31084.821",car
+audio/street/a129.wav,"35512.858,41564.509",people speaking
+audio/street/a129.wav,"35562.059,52063.877",people walking
+audio/street/a129.wav,"44113.09,47330.797",people speaking
+audio/street/a129.wav,"44437.813,55084.783",large vehicle
+audio/street/a129.wav,"55694.868,62828.928",car
+audio/street/a129.wav,"61431.636,62051.561",car
+audio/street/a129.wav,"62710.847,68693.617",car
+audio/street/a129.wav,"63635.814000000006,64609.983",people walking
+audio/street/a129.wav,"63862.136,70435.311",people speaking
+audio/street/a129.wav,"68693.617,73357.816",car
+audio/street/a129.wav,"73357.816,74558.306",car
+audio/street/a129.wav,"76290.161,77913.774",car
+audio/street/a129.wav,"78012.175,79803.07",car
+audio/street/a129.wav,"80039.232,80757.558",brakes squeaking
+audio/street/a129.wav,"80757.558,83069.978",car
+audio/street/a129.wav,"83069.978,86208.96399999999",car
+audio/street/a129.wav,"86208.96399999999,88954.347",car
+audio/street/a129.wav,"86602.567,88098.26",brakes squeaking
+audio/street/a129.wav,"87999.859,90351.63900000001",brakes squeaking
+audio/street/a129.wav,"90873.163,93146.222",car
+audio/street/a129.wav,"98164.664,102553.341",large vehicle
+audio/street/a129.wav,"122538.549,128895.242",car
+audio/street/a129.wav,"134208.88700000002,139542.212",car
+audio/street/a129.wav,"139591.41199999998,144629.534",car
+audio/street/a129.wav,"141598.78900000002,148496.687",people walking
+audio/street/a129.wav,"145101.858,151104.309",car
+audio/street/a129.wav,"149874.299,154843.53999999998",car
+audio/street/a129.wav,"151675.034,158956.695",people walking
+audio/street/a129.wav,"159261.73700000002,163296.17099999997",car
+audio/street/a129.wav,"163689.775,167232.204",car
+audio/street/a129.wav,"198720.469,202597.461",car
+audio/street/a129.wav,"205913.569,209790.562",car
+audio/street/a129.wav,"210804.09,228555.599",large vehicle
+audio/street/a129.wav,"226813.905,231379.703",people walking
+audio/street/a129.wav,"229549.448,231094.341",children
+audio/street/a129.wav,"231852.027,233583.881",people speaking
+audio/street/a129.wav,"236043.902,240570.34",people walking
+audio/street/a131.wav,"0.0,25786.822999999997",people walking
+audio/street/a131.wav,"9997.565,16498.445",people speaking
+audio/street/a131.wav,"15966.555,17562.225000000002",children
+audio/street/a131.wav,"17906.969,21915.845",people speaking
+audio/street/a131.wav,"26308.862999999998,29716.899999999998",people walking
+audio/street/a131.wav,"30662.483,34297.065",children
+audio/street/a131.wav,"31489.867000000002,40571.399",people walking
+audio/street/a131.wav,"38236.992999999995,44324.18",people speaking
+audio/street/a131.wav,"44205.981999999996,51780.492000000006",large vehicle
+audio/street/a131.wav,"62339.497,66663.567",car
+audio/street/a131.wav,"79281.183,81349.64499999999",people walking
+audio/street/a131.wav,"84038.645,94361.254",people walking
+audio/street/a131.wav,"87387.58300000001,92499.639",car
+audio/street/a131.wav,"91780.602,94361.254",people speaking
+audio/street/a131.wav,"98626.225,102388.856",people speaking
+audio/street/a131.wav,"98980.819,99680.156",brakes squeaking
+audio/street/a131.wav,"101699.368,107983.552",people walking
+audio/street/a131.wav,"108269.197,128008.23199999999",car
+audio/street/a131.wav,"124245.601,125811.72200000001",brakes squeaking
+audio/street/a131.wav,"126057.96800000001,127880.184",brakes squeaking
+audio/street/a131.wav,"129259.15900000001,130569.18400000001",brakes squeaking
+audio/street/a131.wav,"130293.389,131761.012",people speaking
+audio/street/a131.wav,"131534.46600000001,135100.1",people walking
+audio/street/a131.wav,"134331.815,139030.178",people speaking
+audio/street/a131.wav,"136764.72,140320.504",people walking
+audio/street/a131.wav,"138724.83299999998,143226.2",people walking
+audio/street/a131.wav,"140468.25100000002,145511.358",car
+audio/street/a131.wav,"146348.592,147698.017",people speaking
+audio/street/a131.wav,"148269.307,172421.06",people walking
+audio/street/a131.wav,"161931.00400000002,163211.47999999998",children
+audio/street/a131.wav,"170076.803,188249.717",people speaking
+audio/street/a131.wav,"172421.06,174312.225",children
+audio/street/a131.wav,"179847.823,204038.975",people walking
+audio/street/a131.wav,"193637.56699999998,197547.945",people speaking
+audio/street/a131.wav,"204393.568,209022.983",people walking
+audio/street/a131.wav,"213475.1,215681.46",children
+audio/street/a131.wav,"216341.397,226289.71300000002",children
+audio/street/a131.wav,"219897.182,231490.41700000002",people walking
+audio/street/a131.wav,"231057.02500000002,231569.21600000001",brakes squeaking
+audio/street/a131.wav,"240187.80599999998,240808.345",people speaking
+audio/street/b003.wav,"298.388,13494.859999999999",people walking
+audio/street/b003.wav,"4822.343,18047.69",car
+audio/street/b003.wav,"18240.199,32033.447000000004",car
+audio/street/b003.wav,"30974.648999999998,35498.604",large vehicle
+audio/street/b003.wav,"75819.55,77013.10399999999",people walking
+audio/street/b003.wav,"78293.28700000001,87013.931",car
+audio/street/b003.wav,"84222.555,101509.83600000001",people walking
+audio/street/b003.wav,"84463.19099999999,95012.66699999999",car
+audio/street/b003.wav,"101240.323,115524.469",car
+audio/street/b003.wav,"112309.573,146489.492",large vehicle
+audio/street/b003.wav,"140194.45799999998,155027.253",car
+audio/street/b003.wav,"149290.494,235322.63",car
+audio/street/b003.wav,"152592.01799999998,180005.256",car
+audio/street/b003.wav,"186560.178,201999.375",car
+audio/street/b003.wav,"202413.269,216524.15600000002",car
+audio/street/b003.wav,"217111.30800000002,229489.617",car
+audio/street/b003.wav,"221808.52,225013.79",people walking
+audio/street/b005.wav,"13301.361,14206.216",people speaking
+audio/street/b005.wav,"21650.701,34993.192",car
+audio/street/b005.wav,"35272.874,47990.193",car
+audio/street/b005.wav,"44971.269,54990.476",people walking
+audio/street/b005.wav,"63923.858,95017.94900000001",car
+audio/street/b005.wav,"86800.22499999999,94022.609",people walking
+audio/street/b005.wav,"95453.925,127090.929",people walking
+audio/street/b005.wav,"104864.41100000001,120995.5",car
+audio/street/b005.wav,"126325.915,130052.271",children
+audio/street/b005.wav,"138459.192,165045.462",car
+audio/street/b005.wav,"155626.74899999998,157839.53",children
+audio/street/b005.wav,"158629.221,160060.53600000002",people speaking
+audio/street/b005.wav,"179662.97499999998,180707.671",children
+audio/street/b005.wav,"183043.841,185544.53",children
+audio/street/b005.wav,"188982.977,189863.15300000002",children
+audio/street/b006.wav,"0.0,12038.328",car
+audio/street/b006.wav,"3888.325,4252.571",people speaking
+audio/street/b006.wav,"10198.886,22993.024999999998",car
+audio/street/b006.wav,"21572.466,33993.253000000004",car
+audio/street/b006.wav,"44583.703,66001.365",car
+audio/street/b006.wav,"61457.397,69024.606",car
+audio/street/b006.wav,"68469.13100000001,71510.585",car
+audio/street/b006.wav,"70955.11,88010.92599999999",car
+audio/street/b006.wav,"86390.03099999999,93520.146",car
+audio/street/b006.wav,"94212.213,117004.903",large vehicle
+audio/street/b006.wav,"113007.304,129999.37700000001",car
+audio/street/b006.wav,"116249.09300000001,116759.03700000001",car
+audio/street/b006.wav,"122896.58099999999,135007.759",car
+audio/street/b006.wav,"133341.33299999998,137493.73700000002",car
+audio/street/b006.wav,"135153.457,142019.49300000002",car
+audio/street/b006.wav,"139688.31900000002,144523.684",car
+audio/street/b006.wav,"142793.516,147492.288",car
+audio/street/b006.wav,"145252.17599999998,153994.078",car
+audio/street/b006.wav,"150870.669,164994.30599999998",car
+audio/street/b006.wav,"164620.954,173007.717",car
+audio/street/b006.wav,"173790.845,183989.73200000002",car
+audio/street/b006.wav,"176631.964,197002.418",people walking
+audio/street/b006.wav,"196483.36800000002,208029.964",car
+audio/street/b006.wav,"205425.606,210534.155",car
+audio/street/b006.wav,"209441.41700000002,213029.24",car
+audio/street/b006.wav,"211144.26700000002,222627.12",car
+audio/street/b007.wav,"1704.661,2255.124",people walking
+audio/street/b007.wav,"2921.007,10059.274",children
+audio/street/b007.wav,"5060.7119999999995,23012.920000000002",car
+audio/street/b007.wav,"13894.761,36517.03",children
+audio/street/b007.wav,"14542.887,31846.969",people walking
+audio/street/b007.wav,"21254.988999999998,30515.203",car
+audio/street/b007.wav,"28490.919,44028.191",car
+audio/street/b007.wav,"39251.590000000004,46549.668",children
+audio/street/b007.wav,"49470.676,51645.894",people walking
+audio/street/b007.wav,"63365.436,67520.54699999999",car
+audio/street/b007.wav,"88083.01699999999,89592.352",people walking
+audio/street/b007.wav,"92335.791,96996.973",people walking
+audio/street/b007.wav,"97494.165,102519.363",car
+audio/street/b007.wav,"104854.393,109266.979",people walking
+audio/street/b007.wav,"112063.688,117017.85800000001",car
+audio/street/b007.wav,"131063.55199999998,143528.884",car
+audio/street/b007.wav,"140492.457,160025.028",car
+audio/street/b007.wav,"160406.801,160841.845",people walking
+audio/street/b007.wav,"166941.334,167376.378",people walking
+audio/street/b007.wav,"167909.084,199001.386",car
+audio/street/b007.wav,"174132.872,174514.645",people walking
+audio/street/b007.wav,"182301.038,182718.32499999998",people walking
+audio/street/b007.wav,"202304.166,217060.136",car
+audio/street/b008.wav,"4197.237999999999,4493.309",people walking
+audio/street/b008.wav,"14585.837,16344.846",people walking
+audio/street/b008.wav,"28475.038,33011.886",children
+audio/street/b008.wav,"33908.806,48729.759",large vehicle
+audio/street/b008.wav,"47440.98,52509.014",brakes squeaking
+audio/street/b008.wav,"48729.759,60729.331000000006",large vehicle
+audio/street/b008.wav,"52212.944,52596.094",large vehicle
+audio/street/b008.wav,"60729.331000000006,81994.17599999999",large vehicle
+audio/street/b008.wav,"103807.62199999999,108048.4",people walking
+audio/street/b008.wav,"110425.674,111279.054",people walking
+audio/street/b008.wav,"118654.69799999999,152833.451",people walking
+audio/street/b008.wav,"119804.14899999999,149001.948",car
+audio/street/b008.wav,"157300.636,158014.689",people speaking
+audio/street/b008.wav,"165285.83800000002,166052.13900000002",children
+audio/street/b008.wav,"184948.41700000002,187012.204",car
+audio/street/b008.wav,"193142.61,210802.358",children
+audio/street/b008.wav,"198942.113,201510.962",children
+audio/street/b009.wav,"2509.522,17005.811999999998",car
+audio/street/b009.wav,"14743.44,42005.971000000005",car
+audio/street/b009.wav,"34933.682,48992.707",car
+audio/street/b009.wav,"45817.782,56996.560000000005",car
+audio/street/b009.wav,"52985.128000000004,66987.118",car
+audio/street/b009.wav,"64144.895000000004,74030.889",car
+audio/street/b009.wav,"71854.06899999999,84030.953",car
+audio/street/b009.wav,"95418.85800000001,109487.389",car
+audio/street/b009.wav,"106958.856,115019.743",car
+audio/street/b009.wav,"112595.774,120998.869",car
+audio/street/b009.wav,"118147.14,143508.518",large vehicle
+audio/street/b009.wav,"139402.028,153993.375",large vehicle
+audio/street/b009.wav,"152919.22400000002,164021.95599999998",large vehicle
+audio/street/b009.wav,"175447.885,195999.346",car
+audio/street/b009.wav,"191854.833,203518.405",car
+audio/street/b009.wav,"204297.878,224982.41999999998",car
+audio/street/b009.wav,"221807.495,227368.367",people walking
+audio/street/b009.wav,"229488.152,232396.916",people walking
+audio/street/b091.wav,"0.0,5532.196",car
+audio/street/b091.wav,"17477.385000000002,27472.945",car
+audio/street/b091.wav,"27472.945,30808.097",car
+audio/street/b091.wav,"32896.278000000006,38557.13",car
+audio/street/b091.wav,"38557.13,46395.232",car
+audio/street/b091.wav,"48503.207,51511.771",car
+audio/street/b091.wav,"52263.912,54569.819",car
+audio/street/b091.wav,"55856.376,59013.388999999996",car
+audio/street/b091.wav,"59013.388999999996,61715.159999999996",car
+audio/street/b091.wav,"61715.159999999996,63654.892",car
+audio/street/b091.wav,"63654.892,66237.903",car
+audio/street/b091.wav,"66831.699,69117.812",car
+audio/street/b091.wav,"70622.094,77005.397",car
+audio/street/b091.wav,"78074.229,81686.486",car
+audio/street/b091.wav,"82636.55900000001,86100.367",car
+audio/street/b091.wav,"87020.75,90286.626",car
+audio/street/b091.wav,"90989.284,92562.84300000001",car
+audio/street/b091.wav,"92562.84300000001,95155.75",car
+audio/street/b091.wav,"95413.06199999999,106665.48899999999",car
+audio/street/b091.wav,"107932.253,112811.27399999999",car
+audio/street/b091.wav,"120975.964,125092.947",car
+audio/street/b091.wav,"128170.787,130872.558",car
+audio/street/b091.wav,"130872.558,140996.773",car
+audio/street/b091.wav,"140996.773,144985.09999999998",car
+audio/street/b091.wav,"145954.967,150071.94999999998",car
+audio/street/b091.wav,"151239.748,155020.247",car
+audio/street/b091.wav,"155020.247,160027.92299999998",car
+audio/street/b091.wav,"161215.51400000002,164085.527",car
+audio/street/b091.wav,"165906.5,173606.05000000002",car
+audio/street/b091.wav,"201257.133,235469.658",car
+audio/street/b091.wav,"238092.256,241951.92700000003",car
+audio/street/b093.wav,"3794.935,110647.71",people walking
+audio/street/b093.wav,"11619.621000000001,12386.133",children
+audio/street/b093.wav,"14415.646999999999,16000.931999999999",people speaking
+audio/street/b093.wav,"16375.478000000001,17986.895",people speaking
+audio/street/b093.wav,"21427.487,27873.154",children
+audio/street/b093.wav,"22821.145,23300.214",people speaking
+audio/street/b093.wav,"25347.149,34074.93",people speaking
+audio/street/b093.wav,"32890.321,40024.107",car
+audio/street/b093.wav,"38674.001,50520.091",car
+audio/street/b093.wav,"50041.021,52044.404",people speaking
+audio/street/b093.wav,"51034.002,57523.221",car
+audio/street/b093.wav,"60719.923,64047.280999999995",people speaking
+audio/street/b093.wav,"63202.376000000004,65379.96599999999",car
+audio/street/b093.wav,"65423.518000000004,84838.912",people speaking
+audio/street/b093.wav,"66372.947,67792.736",car
+audio/street/b093.wav,"79072.653,89141.83",car
+audio/street/b093.wav,"92948.257,95709.442",car
+audio/street/b093.wav,"95552.655,96815.657",people speaking
+audio/street/b093.wav,"97799.928,109698.28099999999",car
+audio/street/b093.wav,"106379.633,107006.779",people speaking
+audio/street/b093.wav,"109288.894,112468.175",people speaking
+audio/street/b093.wav,"110011.854,121587.92300000001",car
+audio/street/b093.wav,"118844.159,210860.408",people walking
+audio/street/b093.wav,"120838.832,128530.08",car
+audio/street/b093.wav,"126840.27,134575.07",car
+audio/street/b093.wav,"127101.58099999999,135341.582",people speaking
+audio/street/b093.wav,"134575.07,158014.65099999998",car
+audio/street/b093.wav,"136369.405,137458.2",brakes squeaking
+audio/street/b093.wav,"136761.37099999998,148320.019",people speaking
+audio/street/b093.wav,"142928.30599999998,149600.44199999998",car
+audio/street/b093.wav,"157962.389,165009.07",car
+audio/street/b093.wav,"159713.171,161315.877",people speaking
+audio/street/b093.wav,"165009.07,176045.097",car
+audio/street/b093.wav,"176445.774,188030.55299999999",car
+audio/street/b093.wav,"185957.487,189241.293",people speaking
+audio/street/b093.wav,"191375.332,192795.12",people speaking
+audio/street/b093.wav,"193805.522,204815.418",car
+audio/street/b093.wav,"205712.585,210860.408",car
+audio/street/b093.wav,"206000.027,210860.408",people speaking
+audio/street/b094.wav,"1505.533,3493.229",car
+audio/street/b094.wav,"7350.5419999999995,8816.714",car
+audio/street/b094.wav,"10174.645,10784.731000000002",children
+audio/street/b094.wav,"12152.502,13195.551",people speaking
+audio/street/b094.wav,"12555.945,16580.539",car
+audio/street/b094.wav,"15232.448,20004.888000000003",people walking
+audio/street/b094.wav,"16816.700999999997,17702.309",people speaking
+audio/street/b094.wav,"18322.234,19306.242000000002",children
+audio/street/b094.wav,"21421.86,22691.231",people speaking
+audio/street/b094.wav,"22150.026,29520.248",people walking
+audio/street/b094.wav,"25426.774,29520.248",people speaking
+audio/street/b094.wav,"32501.792999999998,40560.820999999996",car
+audio/street/b094.wav,"40255.778,42509.157",car
+audio/street/b094.wav,"42322.195,44546.054",car
+audio/street/b094.wav,"44181.971,46986.395000000004",car
+audio/street/b094.wav,"47635.840000000004,52546.041000000005",people walking
+audio/street/b094.wav,"48600.168,54317.256",large vehicle
+audio/street/b094.wav,"53047.885,57534.962999999996",people walking
+audio/street/b094.wav,"53756.371,58145.048",people speaking
+audio/street/b094.wav,"57702.244999999995,60585.389",car
+audio/street/b094.wav,"62848.608,72541.08899999999",car
+audio/street/b094.wav,"76732.96399999999,87084.731",people walking
+audio/street/b094.wav,"80688.678,87025.69099999999",car
+audio/street/b094.wav,"87084.731,107030.579",large vehicle
+audio/street/b094.wav,"108644.352,122499.189",large vehicle
+audio/street/b094.wav,"116782.101,120541.01199999999",brakes squeaking
+audio/street/b094.wav,"120698.454,128009.63500000001",car
+audio/street/b094.wav,"127537.311,128885.402",people speaking
+audio/street/b094.wav,"129997.332,136019.462",people walking
+audio/street/b094.wav,"136019.462,141008.38400000002",car
+audio/street/b094.wav,"140703.342,144540.97400000002",car
+audio/street/b094.wav,"146676.272,153013.285",large vehicle
+audio/street/b094.wav,"152688.56199999998,163040.32900000003",large vehicle
+audio/street/b094.wav,"164132.578,164654.103",brakes squeaking
+audio/street/b094.wav,"164545.862,171069.837",car
+audio/street/b094.wav,"173047.693,177013.246",car
+audio/street/b094.wav,"181697.126,187286.293",car
+audio/street/b094.wav,"183330.579,184570.43",people speaking
+audio/street/b094.wav,"187591.335,192531.057",car
+audio/street/b094.wav,"194184.191,200540.88400000002",car
+audio/street/b094.wav,"200649.125,206021.81",car
+audio/street/b094.wav,"206021.81,209249.357",people speaking
+audio/street/b094.wav,"206503.974,207537.183",children
+audio/street/b094.wav,"206592.535,210036.564",people walking
+audio/street/b094.wav,"209859.442,219050.079",people speaking
+audio/street/b094.wav,"212781.94700000001,224550.68600000002",people walking
+audio/street/b094.wav,"222435.068,223546.997",people speaking
+audio/street/b094.wav,"224944.289,232019.308",car
+audio/street/b094.wav,"232471.952,240570.34",car
+audio/street/b095.wav,"0.0,2462.2419999999997",car
+audio/street/b095.wav,"1720.603,4528.943",car
+audio/street/b095.wav,"4044.405,6081.44",car
+audio/street/b095.wav,"5755.119,8039.367",car
+audio/street/b095.wav,"8504.127999999999,12024.440999999999",car
+audio/street/b095.wav,"11500.349999999999,14031.811",car
+audio/street/b095.wav,"14971.221,18046.551",car
+audio/street/b095.wav,"20251.691000000003,22713.932",people walking
+audio/street/b095.wav,"24909.184,29517.235",car
+audio/street/b095.wav,"35608.564,41037.362",car
+audio/street/b095.wav,"40463.827000000005,51529.082",large vehicle
+audio/street/b095.wav,"50856.663,55059.284",car
+audio/street/b095.wav,"55059.284,60517.748",car
+audio/street/b095.wav,"59301.46,66015.765",car
+audio/street/b095.wav,"66450.86,69911.84199999999",car
+audio/street/b095.wav,"70435.93400000001,78059.984",car
+audio/street/b095.wav,"82104.389,96027.426",car
+audio/street/b095.wav,"98835.766,102979.056",car
+audio/street/b095.wav,"101584.775,112472.03600000001",car
+audio/street/b095.wav,"113154.344,120560.846",car
+audio/street/b095.wav,"123537.291,132021.64200000002",people speaking
+audio/street/b095.wav,"126246.746,130676.803",car
+audio/street/b095.wav,"127116.936,135373.85",people walking
+audio/street/b095.wav,"132990.71699999998,140070.898",car
+audio/street/b095.wav,"136115.49,144382.293",people walking
+audio/street/b095.wav,"139695.134,149010.12099999998",car
+audio/street/b095.wav,"148149.81900000002,154508.138",people walking
+audio/street/b095.wav,"153351.18099999998,159027.192",car
+audio/street/b095.wav,"158334.99599999998,164060.449",car
+audio/street/b095.wav,"163279.256,167293.99599999998",car
+audio/street/b095.wav,"167501.655,169993.562",car
+audio/street/b095.wav,"168955.267,173820.42",car
+audio/street/b095.wav,"173207.331,176312.32700000002",car
+audio/street/b095.wav,"175976.117,178517.467",car
+audio/street/b095.wav,"178448.247,182522.318",car
+audio/street/b095.wav,"181909.23,185034.00199999998",car
+audio/street/b095.wav,"185439.432,188030.22400000002",car
+audio/street/b095.wav,"187446.801,190522.131",car
+audio/street/b095.wav,"190007.92799999999,194002.891",car
+audio/street/b095.wav,"193923.78199999998,198551.61000000002",car
+audio/street/b095.wav,"198551.61000000002,214027.145",car
+audio/street/b095.wav,"218536.31100000002,224489.2",car
+audio/street/b095.wav,"223935.443,226793.226",car
+audio/street/b095.wav,"226021.921,229067.586",car
+audio/street/b095.wav,"233537.197,241754.558",car
+audio/street/b098.wav,"4753.563,11544.367",car
+audio/street/b098.wav,"10343.674,11436.107",brakes squeaking
+audio/street/b098.wav,"14280.372,15205.496000000001",brakes squeaking
+audio/street/b098.wav,"15746.792,22508.07",car
+audio/street/b098.wav,"24240.217,25135.816",brakes squeaking
+audio/street/b098.wav,"25480.277000000002,26907.33",brakes squeaking
+audio/street/b098.wav,"26434.926,29072.514000000003",car
+audio/street/b098.wav,"30046.846999999998,35499.173",car
+audio/street/b098.wav,"32930.478,33580.033",brakes squeaking
+audio/street/b098.wav,"34081.962,40046.059",car
+audio/street/b098.wav,"37979.293,47515.943999999996",car
+audio/street/b098.wav,"48942.996999999996,54729.942",car
+audio/street/b098.wav,"53106.055,56196.362",car
+audio/street/b098.wav,"56127.47,60536.572",car
+audio/street/b098.wav,"60408.629,73517.833",car
+audio/street/b098.wav,"71165.656,72356.507",brakes squeaking
+audio/street/b098.wav,"73517.833,74561.058",brakes squeaking
+audio/street/b098.wav,"74905.519,82513.188",car
+audio/street/b098.wav,"87060.074,121486.497",car
+audio/street/b098.wav,"107481.694,117067.554",car
+audio/street/b098.wav,"114557.909,122588.77200000001",people walking
+audio/street/b098.wav,"121112.511,132056.53100000002",car
+audio/street/b098.wav,"125433.037,127342.335",brakes squeaking
+audio/street/b098.wav,"128907.172,129389.418",brakes squeaking
+audio/street/b098.wav,"131052.673,133985.513",car
+audio/street/b098.wav,"133818.203,140500.748",car
+audio/street/b098.wav,"142154.161,149535.469",car
+audio/street/b098.wav,"147911.581,148600.50400000002",people walking
+audio/street/b098.wav,"149535.469,155489.725",car
+audio/street/b098.wav,"152852.137,156513.26599999997",people walking
+audio/street/b098.wav,"154840.17,164544.13",car
+audio/street/b098.wav,"162260.845,167565.546",car
+audio/street/b098.wav,"166315.644,166797.88999999998",brakes squeaking
+audio/street/b098.wav,"167221.085,173982.36299999998",car
+audio/street/b098.wav,"193774.112,204324.462",people walking
+audio/street/b098.wav,"198389.89,205525.155",car
+audio/street/b098.wav,"204088.25999999998,209058.34100000001",car
+audio/street/b098.wav,"206578.222,214057.948",car
+audio/street/b098.wav,"213231.241,216282.182",people walking
+audio/street/b098.wav,"215347.21600000001,221045.587",car
+audio/street/b098.wav,"218860.71899999998,224470.514",car
+audio/street/b098.wav,"222738.367,226045.193",car
+audio/street/b098.wav,"225159.436,232993.465",car
+audio/street/b099.wav,"186.98899999999998,2558.792",car
+audio/street/b099.wav,"2421.011,4536.9349999999995",car
+audio/street/b099.wav,"4271.214,10530.412999999999",car
+audio/street/b099.wav,"11475.197,13512.39",car
+audio/street/b099.wav,"13837.159,22064.659",car
+audio/street/b099.wav,"15500.374000000002,18187.105",brakes squeaking
+audio/street/b099.wav,"18531.558,22005.61",car
+audio/street/b099.wav,"27487.33,38047.267",car
+audio/street/b099.wav,"38214.573000000004,46009.047000000006",car
+audio/street/b099.wav,"46156.669,50034.223",car
+audio/street/b099.wav,"59344.289000000004,66695.89499999999",car
+audio/street/b099.wav,"66961.61600000001,69559.773",car
+audio/street/b099.wav,"76537.402,99044.92899999999",car
+audio/street/b099.wav,"108138.48199999999,137495.698",large vehicle
+audio/street/b099.wav,"143105.357,149029.945",car
+audio/street/b099.wav,"153448.782,162512.81",car
+audio/street/b099.wav,"157247.603,162798.21300000002",brakes squeaking
+audio/street/b099.wav,"162650.591,168073.261",car
+audio/street/b099.wav,"167394.197,171025.714",car
+audio/street/b099.wav,"173249.894,176054.724",car
+audio/street/b099.wav,"176310.60299999997,182048.202",car
+audio/street/b099.wav,"180001.168,185994.64599999998",car
+audio/street/b099.wav,"186959.114,223106.97",car
+audio/street/b099.wav,"220075.786,228539.482",car
+audio/street/b099.wav,"224691.453,224691.453",car
+audio/street/b099.wav,"225675.604,232033.217",car
+audio/street/b099.wav,"232623.70799999998,240605.16999999998",car
+audio/street/b100.wav,"0.0,1519.946",people speaking
+audio/street/b100.wav,"5642.337,10817.569000000001",people speaking
+audio/street/b100.wav,"8511.699,21672.21",car
+audio/street/b100.wav,"13212.412,20463.667999999998",people speaking
+audio/street/b100.wav,"19944.662,33527.792",large vehicle
+audio/street/b100.wav,"21049.403000000002,33527.792",brakes squeaking
+audio/street/b100.wav,"30391.512,43010.774",large vehicle
+audio/street/b100.wav,"36234.038,41535.314",people walking
+audio/street/b100.wav,"40467.644,42069.149000000005",people speaking
+audio/street/b100.wav,"44723.494,49513.179000000004",people walking
+audio/street/b100.wav,"46873.662000000004,48527.067",car
+audio/street/b100.wav,"48816.228,64008.27700000001",car
+audio/street/b100.wav,"59270.493,62013.810999999994",people walking
+audio/street/b100.wav,"59715.355,79000.138",people speaking
+audio/street/b100.wav,"66455.02,76019.56",car
+audio/street/b100.wav,"74922.23300000001,88535.021",people walking
+audio/street/b100.wav,"79000.138,97017.063",car
+audio/street/b100.wav,"81847.257,84946.464",people speaking
+audio/street/b100.wav,"99715.894,113499.212",people speaking
+audio/street/b100.wav,"102318.33899999999,111007.983",people walking
+audio/street/b100.wav,"107063.537,132005.486",large vehicle
+audio/street/b100.wav,"119630.898,125028.561",large vehicle
+audio/street/b100.wav,"121039.629,131493.894",people speaking
+audio/street/b100.wav,"124761.644,180413.923",people walking
+audio/street/b100.wav,"135742.33000000002,137729.381",people speaking
+audio/street/b100.wav,"140865.661,150037.239",people speaking
+audio/street/b100.wav,"143712.78,168017.093",large vehicle
+audio/street/b100.wav,"151208.71,163501.74000000002",people speaking
+audio/street/b100.wav,"164517.509,172006.025",car
+audio/street/b100.wav,"171783.59399999998,180413.923",people speaking

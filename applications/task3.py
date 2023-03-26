@@ -233,11 +233,13 @@ def main(argv):
             # System testing
             # ==================================================
             if params['flow']['test_system']:
+                print('TESTING')
                 app.system_testing()
 
             # System evaluation
             # ==================================================
             if params['flow']['evaluate_system']:
+                print('Training')
                 app.system_evaluation()
 
         # System evaluation with challenge data

@@ -114,6 +114,8 @@ import importlib
 import collections
 from tqdm import tqdm
 from six import iteritems
+import tensorflow as tf
+from tensorflow import keras
 
 from .containers import DottedDict
 from .utils import SuppressStdoutAndStderr, Timer, SimpleMathStringEvaluator, get_parameter_hash
@@ -248,8 +250,8 @@ class KerasMixin(object):
         """Plots model topology
         """
 
-        from keras.utils.visualize_util import plot
-        plot(self.model, to_file=filename, show_shapes=show_shapes, show_layer_names=show_layer_names)
+        from keras.utils import plot_model
+        plot_model(self.model, to_file=filename, show_shapes=show_shapes, show_layer_names=show_layer_names)
 
     def prepare_data(self, data, files, processor='default'):
         """Concatenate feature data into one feature matrix
@@ -456,9 +458,9 @@ class KerasMixin(object):
                     self.model.add(layer_class())
 
         # Get Optimizer class
-        try:
+        """ try:
             optimizer_class = getattr(
-                importlib.import_module("keras.optimizers"),
+                importlib.import_module("tensorflow.optimizers"),
                 self.learner_params.get_path('model.optimizer.type')
             )
 
@@ -469,11 +471,11 @@ class KerasMixin(object):
             )
             self.logger.exception(message)
             raise AttributeError(message)
-
+ """
         # Compile the model
         self.model.compile(
             loss=self.learner_params.get_path('model.loss'),
-            optimizer=optimizer_class(**dict(self.learner_params.get_path('model.optimizer.parameters', {}))),
+            optimizer=tf.keras.optimizers.Adam(**dict(self.learner_params.get_path('model.optimizer.parameters', {}))),
             metrics=self.learner_params.get_path('model.metrics')
         )
 
@@ -577,7 +579,8 @@ class KerasMixin(object):
                     raise AttributeError(message)
 
                 try:
-                    callback_class = getattr(importlib.import_module("keras.callbacks"), cp['type'])
+                    print('ModelCheckpoint')
+                    callback_class = getattr(importlib.import_module("tensorflow.keras.callbacks"), cp['type'])
                     callbacks.append(callback_class(**cp_params))
 
                 except AttributeError:
@@ -1317,7 +1320,7 @@ class ProgressLoggerCallback(BaseCallback):
 
         """
 
-        if not self.log_progress and self.close_progress_bar:
+        if not self.log_progress and self.close_progress_bar and self.progress_bar:
             self.progress_bar.close()
 
 
@@ -1422,6 +1425,7 @@ class ProgressPlotterCallback(ProgressLoggerCallback):
         self.figure = plt.figure(num=None, figsize=(18, figure_height), dpi=80, facecolor='w', edgecolor='k')
         self.draw()
         if self.interactive:
+            plt.savefig('results/keras_utils.jpg')
             plt.show(block=False)
             plt.pause(0.1)
 

@@ -114,7 +114,8 @@ import logging
 import random
 import warnings
 import copy
-
+import tensorflow as tf
+from tensorflow import keras
 from datetime import datetime
 from sklearn.metrics import mean_absolute_error
 from tqdm import tqdm
@@ -1127,7 +1128,7 @@ class SceneClassifierMLP(SceneClassifier, KerasMixin):
 
         # Setup Keras
         self._setup_keras()
-
+############################## SCEME CLASSIFIER ###################################
         with SuppressStdoutAndStderr():
             # Import keras and suppress backend announcement printed to stderr
             import keras
@@ -1320,7 +1321,7 @@ class SceneClassifierKerasSequential(SceneClassifierMLP):
 
         # Setup Keras
         self._setup_keras()
-
+################################## SceneClassifierKerasSequential ####################################
         with SuppressStdoutAndStderr():
             # Import keras and suppress backend announcement printed to stderr
             import keras
@@ -1774,6 +1775,7 @@ class SceneClassifierKerasSequential(SceneClassifierMLP):
         return frame_probabilities
 
 
+# LEARNER USED IN TASK 3
 class EventDetector(LearnerContainer):
     """Event detector (Frame classifier / Multi-class - Multi-label)"""
 
@@ -2330,7 +2332,7 @@ class EventDetectorMLP(EventDetector, KerasMixin):
         self
 
         """
-
+        print('Start learn')
         # Collect training files
         training_files = sorted(list(annotations.keys()))
 
@@ -2406,16 +2408,18 @@ class EventDetectorMLP(EventDetector, KerasMixin):
 
         # Setup Keras
         self._setup_keras()
-
-        with SuppressStdoutAndStderr():
+        ########################## EVENT DETECTOR MLP ################
+        print('MLP')
+        #with SuppressStdoutAndStderr():
             # Import keras and suppress backend announcement printed to stderr
-            import keras
+        import tensorflow as tf
+        from tensorflow import keras
 
         # Create model
         self.create_model(input_shape=self._get_input_size(data=data))
 
-        if self.show_extra_debug:
-            self.log_model_summary()
+        """ if self.show_extra_debug:
+            self.log_model_summary() """
 
         class_weight = None
         if len(self.class_labels) == 1:
@@ -2455,6 +2459,7 @@ class EventDetectorMLP(EventDetector, KerasMixin):
 
         # Set seed
         self.set_seed()
+        print('SEED SET')
 
         hist = self.model.fit(
             x=X_training,
@@ -2462,11 +2467,11 @@ class EventDetectorMLP(EventDetector, KerasMixin):
             batch_size=self.learner_params.get_path('training.batch_size', 1),
             epochs=self.learner_params.get_path('training.epochs', 1),
             validation_data=validation,
-            verbose=0,
+            verbose=1,
             shuffle=self.learner_params.get_path('training.shuffle', True),
-            callbacks=callback_list,
             class_weight=class_weight
         )
+        print('HIST SET')
 
         # Manually update callbacks
         for callback in callback_list:
@@ -2627,7 +2632,8 @@ class EventDetectorKerasSequential(EventDetectorMLP):
 
         # Setup Keras
         self._setup_keras()
-
+        print('Keras')
+############################ EventDetectorKerasSequential ####################################
         with SuppressStdoutAndStderr():
             # Import keras and suppress backend announcement printed to stderr
             import keras

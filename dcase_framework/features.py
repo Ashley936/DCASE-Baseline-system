@@ -573,7 +573,8 @@ class FeatureExtractor(object):
             'mfcc',
             'mfcc_delta',
             'mfcc_acceleration',
-            'mel'
+            'mel',
+            'tempogram'
         ]
         self.valid_extractors += kwargs.get('valid_extractors', [])
 
@@ -583,7 +584,7 @@ class FeatureExtractor(object):
             'hop_length_samples': int(0.02 * 44100),
         }
         self.default_general_parameters.update(kwargs.get('default_general_parameters', {}))
-
+# ALL AVAILABLE FEATURES
         self.default_parameters = {
             'mfcc': {
                 'mono': True,  # [True, False]
@@ -615,6 +616,9 @@ class FeatureExtractor(object):
                 'fmax': 22050,  # Maximum frequency when constructing MEL band
                 'htk': True,  # Switch for HTK-styled MEL-frequency equation
                 'log': True,  # Logarithmic
+            },
+            'tempogram': {
+                'hop_length': 512
             }
         }
         self.default_parameters.update(kwargs.get('default_parameters', {}))
@@ -647,7 +651,7 @@ class FeatureExtractor(object):
         self.default_general_parameters = d['default_general_parameters']
         self.default_parameters = d['default_parameters']
         self.logger = logging.getLogger(__name__)
-
+# EXTRACTING FEATURES
     def extract(self, audio_file, extractor_params=None, storage_paths=None, extractor_name=None):
         """Extract features for audio file
 
@@ -778,10 +782,11 @@ class FeatureExtractor(object):
                     data = y
 
                 # Extract features
+                # extractor_func = _mel / _mfcc etc. depending on the feature
                 extractor_func = getattr(self, '_{}'.format(extractor_name), None)
                 if extractor_func is not None:
                     data = extractor_func(data=data, params=current_extractor_params)
-
+                    # print(extractor_name,': ',current_extractor_params )
                     # Feature extraction meta information
                     meta = {
                         'parameters': current_extractor_params,
@@ -922,7 +927,7 @@ class FeatureExtractor(object):
 
             mel_spectrum = numpy.dot(mel_basis, spectrogram_)
 
-            mfcc = librosa.feature.mfcc(S=librosa.logamplitude(mel_spectrum),
+            mfcc = librosa.feature.mfcc(S=librosa.amplitude_to_db(mel_spectrum),
                                         n_mfcc=params.get('n_mfcc'))
 
             feature_matrix.append(mfcc.T)
@@ -1041,7 +1046,16 @@ class FeatureExtractor(object):
                 y[channel] = self._normalize_audio(y[channel])
 
         return y, fs
-
+    
+    def _tempogram(self, data, params):
+        hop_length = 512
+        feature_matrix = []
+        oenv = librosa.onset.onset_strength(y=data, sr=params.get('fs'), hop_length=hop_length)
+        tempogram = librosa.feature.tempogram(onset_envelope=oenv, sr=params.get('fs'),
+                                      hop_length=hop_length)
+        feature_matrix.append(tempogram[0].T)
+        return feature_matrix
+    
     @staticmethod
     def _normalize_audio(y, head_room=0.005):
         """Normalize audio
@@ -1489,7 +1503,12 @@ class FeatureNormalizer(DataFile, ContainerMixin, FeatureProcessingUnitMixin):
         self.mean = d['mean']
         self.std = d['std']
 
+    def add_matrices(arr1, arr2):
+        for i in range(0, arr2.shape):
+            arr1[i] += arr2[i]
+        return arr1
     def accumulate(self, feature_container):
+        
         """Accumulate statistics
 
         Parameters
@@ -1503,24 +1522,41 @@ class FeatureNormalizer(DataFile, ContainerMixin, FeatureProcessingUnitMixin):
         """
 
         stat = feature_container.stat
-        for channel in range(0, len(stat)):
-            if len(self['N']) <= channel:
-                self['N'].insert(channel, 0)
+        temp = False
+        if(temp == True):
+            for channel in range(0, len(stat)):
+                if len(self['N']) <= channel:
+                    self['N'].insert(channel, 0)
+                self['N'][channel] += stat[channel]['N']
+                if len(self['mean']) <= channel:
+                    self['mean'].insert(channel, 0)
+                self['mean'][channel] += stat[channel]['mean'][:, :15000]
+                if len(self['S1']) <= channel:
+                    self['S1'].insert(channel, 0)
+                self['S1'][channel] += stat[channel]['S1'][:, :15000]
+                if len(self['S2']) <= channel:
+                    self['S2'].insert(channel, 0)
+                self['S2'][channel] += stat[channel]['S2'][:, :15000]
+            return self
+        else:
+            for channel in range(0, len(stat)):
+                if len(self['N']) <= channel:
+                    self['N'].insert(channel, 0)
 
-            self['N'][channel] += stat[channel]['N']
+                self['N'][channel] += stat[channel]['N']
 
-            if len(self['mean']) <= channel:
-                self['mean'].insert(channel, 0)
-            self['mean'][channel] += stat[channel]['mean']
+                if len(self['mean']) <= channel:
+                    self['mean'].insert(channel, 0)
+                self['mean'][channel] += stat[channel]['mean']
 
-            if len(self['S1']) <= channel:
-                self['S1'].insert(channel, 0)
-            self['S1'][channel] += stat[channel]['S1']
+                if len(self['S1']) <= channel:
+                    self['S1'].insert(channel, 0)
+                self['S1'][channel] += stat[channel]['S1']
 
-            if len(self['S2']) <= channel:
-                self['S2'].insert(channel, 0)
-            self['S2'][channel] += stat[channel]['S2']
-        return self
+                if len(self['S2']) <= channel:
+                    self['S2'].insert(channel, 0)
+                self['S2'][channel] += stat[channel]['S2']
+            return self
 
     def finalize(self):
         """Finalize statistics calculation

@@ -418,7 +418,7 @@ class SimpleMathStringEvaluator(object):
     """
 
     def __init__(self):
-        from pyparsing import Word, nums, alphas, Combine, oneOf, opAssoc, operatorPrecedence
+        from pyparsing import Word, nums, alphas, Combine, oneOf, opAssoc, infix_notation
 
         # Define the parser
         integer = Word(nums).setParseAction(lambda t: int(t[0]))
@@ -536,7 +536,7 @@ class SimpleMathStringEvaluator(object):
                 return False
 
         operand.setParseAction(EvalConstant)
-        self.arith_expr = operatorPrecedence(
+        self.arith_expr = infix_notation(
             operand,
             [
                 (self.operators['sign'], 1, opAssoc.RIGHT, EvalSignOp),

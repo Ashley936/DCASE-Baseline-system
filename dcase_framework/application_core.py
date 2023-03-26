@@ -634,12 +634,13 @@ class AppCore(object):
                     total=len(files),
                     file=os.path.split(audio_filename)[-1])
                 )
-
+          
             # Get feature filename
             current_feature_files = self._get_feature_filename(audio_file=os.path.split(audio_filename)[1],
                                                                path=self.params.get_path('path.feature_extractor'))
 
             if not filelist_exists(current_feature_files) or overwrite:
+                # WORKING print('feature extract in core')
                 feature_extractor.extract(
                     audio_file=self.dataset.relative_to_absolute_path(audio_filename),
                     extractor_params=DottedDict(self.params.get_path('feature_extractor.parameters')),
@@ -1414,6 +1415,7 @@ class AcousticSceneClassificationAppCore(AppCore):
                             ax2.legend(['train', 'validation'], loc='upper left')
                         else:
                             ax2.legend(['train'], loc='upper left')
+                    plt.savefig('results/1418.jpg')
                     plt.show()
 
     @before_and_after_function_wrapper
@@ -1698,7 +1700,7 @@ class AcousticSceneClassificationAppCore(AppCore):
                 ParameterFile(output_data, filename=output_file).save()
             return output
 
-
+# TASK 3 CLASS (feature extraction same as AppCore)
 class SoundEventAppCore(AppCore):
     def __init__(self, *args, **kwargs):
         """Constructor
@@ -2259,11 +2261,12 @@ class SoundEventAppCore(AppCore):
         None
 
         """
-
+        print('TESTING')
         if not overwrite:
             overwrite = self.params.get_path('general.overwrite', False)
 
         if self.params.get_path('recognizer.scene_handling') == 'scene-dependent':
+            print('scene-dependant')
 
             fold_progress = tqdm(self._get_active_folds(),
                                  desc="           {0: >15s}".format('Fold '),
@@ -2403,6 +2406,7 @@ class SoundEventAppCore(AppCore):
                         results.save()
 
         elif self.params.get_path('recognizer.scene_handling') == 'scene-independent':
+            print('scene-INdependant')
             message = '{name}: Scene handling mode not implemented yet [{mode}]'.format(
                 name=self.__class__.__name__,
                 mode=self.params.get_path('recognizer.scene_handling')
@@ -2412,6 +2416,7 @@ class SoundEventAppCore(AppCore):
             raise ValueError(message)
 
         else:
+            print('scene-NOT_dependant')
             message = '{name}: Unknown scene handling mode [{mode}]'.format(
                 name=self.__class__.__name__,
                 mode=self.params.get_path('recognizer.scene_handling')
@@ -3287,6 +3292,7 @@ class BinarySoundEventAppCore(SoundEventAppCore):
                                     ax2.legend(['train', 'validation'], loc='upper left')
                                 else:
                                     ax2.legend(['train'], loc='upper left')
+                            plt.savefig('results/3292.jpg')
                             plt.show()
 
         elif self.params.get_path('learner.event_handling') == 'event-independent':
